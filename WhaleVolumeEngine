@@ -1,0 +1,12 @@
+WhaleVolumeEngine/
+│
+├── main.py                # اجرای کل سیستم
+├── config.py              # تنظیمات (تلگرام، درصدها)
+├── volume_engine.py       # موتور تشخیص حجم
+├── pairs_loader.py        # همه ارزها + همه pairها
+├── scorer.py              # سیستم امتیازدهی نهنگی
+├── replay_memory.py       # حافظه ریپلی 24 ساعته
+├── telegram_bot.py        # ارسال پیام تلگرام
+├── utils.py               # ابزار کمکی
+├── requirements.txt
+└── README.md
